@@ -3,6 +3,9 @@
 
 	List your colour variables here to remember them more easily.
 
+	- Material Blue: 2196F3
+
+
 	Author: Your Name
 	Version: 1.0.0
 \*==============================================================================*/
@@ -18,7 +21,14 @@ body{
 /*==============================================================================*\
 	Create your custom classes here
 \*==============================================================================*/
+.navbar-container{
+	position: absolute;
+	top: 70px;
+	width: 100%;
+	/*padding-top: 80px;*/
+}
 .section1{
+	position: relative;
 	height: 100vh;
 	width: 100%;
 	/*background-color: #2196F3;*/
