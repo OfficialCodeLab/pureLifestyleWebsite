@@ -17,13 +17,17 @@ p{
 }
 body{
 	/*margin-top: 20px;*/
+	background-image: url("../images/water1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 }
 /*==============================================================================*\
 	Create your custom classes here
 \*==============================================================================*/
 .navbar-container{
 	position: absolute;
-	top: 70px;
+	top: 35px;
 	width: 100%;
 	/*padding-top: 80px;*/
 }
@@ -33,9 +37,7 @@ body{
 	width: 100%;
 	/*background-color: #2196F3;*/
 	/*background-image: src("images/water1.jpg");*/
-	background-image: url("../images/water1.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
+
 }
 .section2{
 	height: 100vh;
