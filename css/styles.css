@@ -16,7 +16,7 @@ p{
 	/* Add your default font here */
 }
 body{
-	margin-top: 64px;
+	/*margin-top: 64px;*/
 	/*background-image: url("../images/water1.jpg");*/
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -51,13 +51,47 @@ a.navbar-brand{
 	padding: 0px;
 	padding-right: 20px;
 }
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.header-center{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);  
+    transform: translate(-50%, -50%); 
+
+}
 .header-image{
 	background-repeat: no-repeat;
 	background-position: 0% 40%;
 	background-size: cover;
 	/*background-width: 100%;*/
 	background-image: url("../images/water2.jpg");
-	height: 500px;
+	height: 100vh;
+}
+
+.header-h1{
+	/*margin-top: 200px;*/
+	text-align: center;
+	font-weight: 600;
+	color: #1851A2;
+	text-align: center;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+	font-size: 7vw !important;
+}
+.header-h4{
+	text-align: center;
+	font-weight: 400;
+	color: #fff;
+	text-align: center;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+	font-size: 3.5vw !important;
 }
 .section1{
 	position: relative;
@@ -85,7 +119,7 @@ a.navbar-brand{
 	margin-bottom: 20px;
 }
 .block-writeup{
-	text-align: justify;
+	text-align: center;
 }
 .icon-container{
 	border-radius: 50%;
@@ -97,6 +131,7 @@ a.navbar-brand{
 	margin: auto;
 }
 .icon-homepage{
+	color: #5472B6;
 	font-size: 100px;
 	text-align: center;
 	line-height: 120px;
@@ -108,11 +143,18 @@ a.navbar-brand{
 .img-brand-block{
 	max-height: 300px;
 	max-width: 100%;
-	margin-bottom: 20px;
+	/*margin-bottom: 20px;*/
 	display: inline-block;
 	text-align: center;
 	position: relative;
+	padding: 40px;
 }
+.home-icons{
+	margin-top: 40px;
+}
+
+
+
 .full-width{
 	width: 100%;
 }
