@@ -10,4 +10,8 @@
 \*==============================================================================*/
 $(document).ready(function(){
 	console.log("Ready to go!");
+	$('.main-slider').slick({
+		//setting-name: setting-value
+	});
+    
 });
