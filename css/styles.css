@@ -60,6 +60,18 @@ a.navbar-brand{
 
 .main-slider{
 	height: 350px;
-	width: 900px;
+	width: 100%;
+	/*width: 900px;*/
 	text-align: center;
+}
+
+.slide-1, .slide-2, .slide-3{
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+.pure-slider-01{
+
 }

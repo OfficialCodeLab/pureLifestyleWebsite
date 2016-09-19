@@ -25,6 +25,7 @@
     "bootstrap": "^3.3.6",
     "animate.css": "^3.5.2",
     "jquery.mb.ytplayer": "^3.0.8",
+    "jquery-migrate": "http://code.jquery.com/jquery-migrate-1.2.1.js",
     "slick-carousel": "^1.6.0"
   }
 }
