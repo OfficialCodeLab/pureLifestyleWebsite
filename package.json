@@ -1,0 +1,23 @@
+{
+  "name": "pure-lifestyle",
+  "version": "1.0.0",
+  "description": "Private website",
+  "main": "index.html",
+  "dependencies": {
+    "modernizr": "^3.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OfficialCodeLab/pureLifestyleWebsite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OfficialCodeLab/pureLifestyleWebsite/issues"
+  },
+  "homepage": "https://github.com/OfficialCodeLab/pureLifestyleWebsite#readme"
+}

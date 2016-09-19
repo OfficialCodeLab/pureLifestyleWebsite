@@ -57,21 +57,16 @@ a.navbar-brand{
 	/*background-image: src("images/water1.jpg");*/
 
 }
-
-.main-slider{
-	height: 350px;
+#myCarousel{
+	max-height: 500px;
+	overflow: hidden;
+}
+.carousel-inner, .carousel-inner .item, .carousel-inner .item img {
+	height: inherit;
+	max-height: inherit;
+}
+.carousel-inner .item img{
+	/*margin: auto;*/
 	width: 100%;
-	/*width: 900px;*/
-	text-align: center;
-}
-
-.slide-1, .slide-2, .slide-3{
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-
-.pure-slider-01{
-
+	object-fit: cover;
 }
