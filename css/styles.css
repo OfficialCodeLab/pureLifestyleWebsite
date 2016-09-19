@@ -17,13 +17,15 @@ p{
 }
 body{
 	margin-top: 64px;
-	background-image: url("../images/water1.jpg");
+	/*background-image: url("../images/water1.jpg");*/
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 }
 .white-back{
-	background-color: rgba(255, 255, 255, 0.8);
+	/*background-color: rgba(255, 255, 255, 0.8);*/
+	background-color: white;
+
 }
 .tap-img{
 	width: 100%;
@@ -49,6 +51,14 @@ a.navbar-brand{
 	padding: 0px;
 	padding-right: 20px;
 }
+.header-image{
+	background-repeat: no-repeat;
+	background-position: 0% 40%;
+	background-size: cover;
+	/*background-width: 100%;*/
+	background-image: url("../images/water1.jpg");
+	height: 500px;
+}
 .section1{
 	position: relative;
 	height: 100vh;
@@ -58,7 +68,7 @@ a.navbar-brand{
 
 }
 #myCarousel{
-	max-height: 500px;
+	max-height: 900px;
 	overflow: hidden;
 }
 .carousel-inner, .carousel-inner .item, .carousel-inner .item img {
@@ -66,7 +76,60 @@ a.navbar-brand{
 	max-height: inherit;
 }
 .carousel-inner .item img{
-	/*margin: auto;*/
+	margin: auto;
+	/*width: 100%;*/
+	/*object-fit: cover;*/
+}
+.heading-spacer{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.block-writeup{
+	text-align: justify;
+}
+.icon-container{
+	border-radius: 50%;
+	/*border: 1px solid gray;*/
+	height: 120px;
+	width: 120px;
+	text-align: center;
+	/*line-height: 100px;*/
+	margin: auto;
+}
+.icon-homepage{
+	font-size: 100px;
+	text-align: center;
+	line-height: 120px;
+	margin: auto;
+}
+.block-heading{
+	margin-top: 0px;
+}
+.img-brand-block{
+	max-height: 300px;
+	max-width: 100%;
+	margin-bottom: 20px;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+}
+.full-width{
 	width: 100%;
-	object-fit: cover;
+}
+.blue{
+	background-color: #3871C1;
+	color: white;
+}
+.purple{
+
+	background-color: #2D275D;
+	color: white;
+}
+.horizontal-padder{
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+.no-margin{
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
