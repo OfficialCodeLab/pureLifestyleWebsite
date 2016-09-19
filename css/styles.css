@@ -137,6 +137,41 @@ hr.style-one {
 	line-height: 120px;
 	margin: auto;
 }
+.header-arrows{
+	height:50px;
+	width:50px;
+	text-align: center;
+    position: absolute;
+	margin: auto;
+    bottom: 0px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);  
+    transform: translate(-50%, -50%); 
+}
+.icon-arrows{
+	cursor: pointer;
+	color: #fff;
+	font-size: 75px;
+	text-align: center;
+	line-height: 50px;
+	margin: auto;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+
+.icon-arrows:hover {
+	
+	color: #eee;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+	-webkit-transform: translateY(5px);  
+    transform: translateY(5px);
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
 .block-heading{
 	margin-top: 0px;
 }
