@@ -12,6 +12,15 @@ $(document).ready(function(){
 	console.log("Ready to go!");
 
 	var initialScroll = false;
+	var objectString = $('.img-brand-block')[0];
+
+	
+	if (isScrolledIntoView(objectString)  ){
+		$('.img-brand-block').css("visibility", "visible");
+		$('.img-brand-block').addClass("fadeInDown");
+		console.log("Element is in view!");
+		initialScroll = true;
+	}
 
 
 	// var imageElementString = $('.img-brand-block');
@@ -27,8 +36,9 @@ $(document).ready(function(){
 
 	$(window).scroll(function(){
 		//Check for elements scrolling into view
-		var objectString = $('.img-brand-block');
-		if (initialScroll === false /* && isScrolledIntoView(objectString) */ ){
+
+		// var secondOne = document.getElementsByClassName("img-brand-block");
+		if (initialScroll === false  && isScrolledIntoView(objectString)  ){
 			$('.img-brand-block').css("visibility", "visible");
 			$('.img-brand-block').addClass("fadeInDown");
 			console.log("Element is in view!");
