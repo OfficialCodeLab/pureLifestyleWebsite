@@ -183,6 +183,7 @@ hr.style-one {
 	text-align: center;
 	position: relative;
 	padding: 40px;
+	visibility: hidden;
 }
 .home-icons{
 	margin-top: 40px;

@@ -11,6 +11,45 @@
 $(document).ready(function(){
 	console.log("Ready to go!");
 
+	var initialScroll = false;
+
+
+	// var imageElementString = $('.img-brand-block');
+	function isScrolledIntoView(el) {
+    var elemTop = el.getBoundingClientRect().top;
+    var elemBottom = el.getBoundingClientRect().bottom;
+
+    var isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight);
+		// $('.img-brand-block').addClass("fadeInDown");
+		// console.log("Element is in view!");
+    return isVisible;
+};
+
+	$(window).scroll(function(){
+		//Check for elements scrolling into view
+		var objectString = $('.img-brand-block');
+		if (initialScroll === false /* && isScrolledIntoView(objectString) */ ){
+			$('.img-brand-block').css("visibility", "visible");
+			$('.img-brand-block').addClass("fadeInDown");
+			console.log("Element is in view!");
+			initialScroll = true;
+		}
+
+
+
+	})
+
+
+
+
+
+
+
+
+
+
+
+
 	//Our stuff here
 	var $bubbles = $('.bubbles');
 
