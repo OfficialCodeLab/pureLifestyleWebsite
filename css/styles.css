@@ -195,14 +195,7 @@ hr.style-one {
 
 .contact-details{
 	margin-top: 50px;
-	margin-bottom: 50px;
-	border-radius: 3px 3px 3px 3px;
-	-moz-border-radius: 3px 3px 3px 3px;
-	-webkit-border-radius: 3px 3px 3px 3px;
-	border: 0px solid #000000;
-	-webkit-box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.75);
-	box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.75);
+	margin-bottom: 100px;
 }
 
 .full-width{
