@@ -63,8 +63,8 @@ hr.style-one {
     top: 50%;
     width: 100%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);  
-    transform: translate(-50%, -50%); 
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 
 }
 .header-image{
@@ -145,8 +145,8 @@ hr.style-one {
 	margin: auto;
     bottom: 0px;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);  
-    transform: translate(-50%, -50%); 
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 .icon-arrows{
 	cursor: pointer;
@@ -162,10 +162,10 @@ hr.style-one {
 }
 
 .icon-arrows:hover {
-	
+
 	color: #eee;
 	text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
-	-webkit-transform: translateY(5px);  
+	-webkit-transform: translateY(5px);
     transform: translateY(5px);
     -webkit-transition: 0.2s ease-in-out;
     -moz-transition: 0.2s ease-in-out;
@@ -183,6 +183,7 @@ hr.style-one {
 	text-align: center;
 	position: relative;
 	padding: 40px;
+	visibility: hidden;
 }
 .home-icons{
 	margin-top: 40px;
@@ -212,4 +213,7 @@ hr.style-one {
 .no-margin{
 	margin-top: 0px;
 	margin-bottom: 0px;
+}
+.blurb-block{
+	padding: 40px;
 }
