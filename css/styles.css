@@ -214,3 +214,6 @@ hr.style-one {
 .blurb-block{
 	padding: 40px;
 }
+.blurb-block p{
+	font-size: 1.5em;
+}
