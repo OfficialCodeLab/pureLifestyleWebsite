@@ -188,8 +188,15 @@ hr.style-one {
 .home-icons{
 	margin-top: 40px;
 }
+#map {
+        width: 100%;
+        height: 400px;
+     }
 
-
+.contact-details{
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
 
 .full-width{
 	width: 100%;
@@ -216,4 +223,6 @@ hr.style-one {
 }
 .blurb-block p{
 	font-size: 1.5em;
+.text-center{
+	text-align: center;
 }

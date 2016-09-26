@@ -8,8 +8,19 @@
 	Author: Your Name
 	Version: 1.0.0
 \*==============================================================================*/
+
+// function initMap() {
+//     var mapDiv = document.getElementById('map');
+//     var map = new google.maps.Map(mapDiv, {
+//         center: {lat: -34.074926, lng: 18.816036},
+//         zoom: 15
+//     });
+// }
+
+
 $(document).ready(function(){
 	console.log("Ready to go!");
+	
 
 	var initialScroll = false;
 	var objectString = $('.img-brand-block')[0];
