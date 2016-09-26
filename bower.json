@@ -1,5 +1,5 @@
 {
-  "name": "Staticifier",
+  "name": "staticifier",
   "authors": [
     "Carl Eiserman <carleiserman@gmail.com>"
   ],
@@ -25,7 +25,6 @@
     "bootstrap": "^3.3.6",
     "animate.css": "^3.5.2",
     "jquery.mb.ytplayer": "^3.0.8",
-    "scrollreveal": "^3.3.1",
-    "galleria": "^1.4.7"
+    "scrollreveal": "^3.3.1"
   }
 }
