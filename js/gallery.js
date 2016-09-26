@@ -1,5 +1,6 @@
 $(document).ready(function() {
      $("#lightgallery").lightGallery({
-       thumbnail:true
+       thumbnail:true,
+       selector:".gallery-selector"
      });
  });
