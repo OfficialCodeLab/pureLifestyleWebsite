@@ -128,7 +128,7 @@ hr.style-one {
 }
 .imageContainer img {
     display: block;
-	margin-left: auto; 
+	margin-left: auto;
 	margin-right: auto;
 }
 .imageContainer div {
@@ -286,8 +286,14 @@ hr.style-one {
     max-width: 100%;
     height: auto;
 }
+.em-font{
+
+}
+.em-font p{
+	font-size: 1.5em;
+}
 /*@media only screen and (max-device-width : 768px) {
-	
+
 	.hidden-mobile{
 		display:block;
 	}
@@ -308,7 +314,7 @@ hr.style-one {
 
 @media screen and (min-width: 0px) and (max-width: 768px	) {
   .hidden-mobile { display: none; }  /* hide it on small screens */
-  .visible-mobile {display: block;}  /* show it on small screens */  
+  .visible-mobile {display: block;}  /* show it on small screens */
   .a1{text-align: left;}
   .a2{text-align: left;}
 }
