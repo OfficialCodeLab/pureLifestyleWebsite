@@ -111,6 +111,44 @@ hr.style-one {
 	text-decoration: none;
 
 }
+
+.benefits-list{
+	padding: 25px;
+	text-align: left;
+}
+
+/*.mineral-img{
+	position: relative;
+}*/
+
+.imageContainer {
+    text-align: center;
+}
+.imageContainer img {
+    display: block;
+	margin-left: auto; 
+	margin-right: auto;
+}
+.imageContainer div {
+    position: relative;
+    display: inline-block;
+    /* if you need ie6/7 support */
+    *display: inline;
+    zoom: 1;
+}
+.imageContainer span {
+	padding: 20px;
+	color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #000;
+    background: rgba(0,0,0,.65);
+}
+.imageContainer h4 {
+	color: white;
+}
 #myCarousel{
 	max-height: 900px;
 	overflow: hidden;
@@ -241,4 +279,37 @@ hr.style-one {
 .img-responsive {
     max-width: 100%;
     height: auto;
+}
+/*@media only screen and (max-device-width : 768px) {
+	
+	.hidden-mobile{
+		display:block;
+	}
+	.visible-mobile{
+		display: none;
+	}
+}
+
+@media only screen and (min-device-width : 769px) {
+	.hidden-mobile{
+		display:none;
+	}
+
+	.visible-mobile{
+		display: block;
+	}
+}*/
+
+@media screen and (min-width: 0px) and (max-width: 768px	) {
+  .hidden-mobile { display: none; }  /* hide it on small screens */
+  .visible-mobile {display: block;}  /* show it on small screens */  
+  .a1{text-align: left;}
+  .a2{text-align: left;}
+}
+
+@media screen and (min-width: 769px) {
+  .hidden-mobile  { display: block; }   /* show on large screens */
+  .visible-mobile {display: none;}      /* hide on large screens */
+  .a1{text-align: right;}
+  .a2{text-align: left;}
 }
