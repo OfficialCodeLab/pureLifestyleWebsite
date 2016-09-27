@@ -125,20 +125,20 @@ hr.style-one {
 
 .imageContainer {
     text-align: center;
+		position: relative;
 }
-.imageContainer img {
+/*.imageContainer img {
     display: block;
 	margin-left: auto;
 	margin-right: auto;
-}
-.imageContainer div {
+}*/
+/*.imageContainer div {
     position: relative;
     display: inline-block;
-    /* if you need ie6/7 support */
     *display: inline;
     zoom: 1;
-}
-.imageContainer span {
+}*/
+/*.imageContainer span {
 	padding: 20px;
 	color: white;
     position: absolute;
@@ -147,10 +147,10 @@ hr.style-one {
     width: 100%;
     background: #000;
     background: rgba(0,0,0,.65);
-}
-.imageContainer h4 {
+}*/
+/*.imageContainer h4 {
 	color: white;
-}
+}*/
 #myCarousel{
 	max-height: 900px;
 	overflow: hidden;
@@ -274,6 +274,10 @@ hr.style-one {
 .blurb-block p{
 	font-size: 1.5em;
 }
+.bigger-p{
+	font-size: 1.5em;
+
+}
 .text-center{
 	text-align: center;
 }
@@ -286,10 +290,19 @@ hr.style-one {
     max-width: 100%;
     height: auto;
 }
+.img-full-width{
+	width: 100%;
+	height: auto;
+	padding: 0px;
+	margin: 0px;
+}
 .em-font{
 
 }
 .em-font p{
+	font-size: 1.5em;
+}
+.em-font-2{
 	font-size: 1.5em;
 }
 .limited-height{
@@ -298,6 +311,32 @@ hr.style-one {
 .retail-banner{
 	width: 100%;
 	height: auto;
+}
+.black-bg{
+	background-color: black;
+}
+.no-padding{
+	padding: 0px;
+}
+.limited-width-text{
+	display: inline-block;
+	max-width: 800px;
+	height: 100%;
+}
+.image-overlay-1{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	/*height: 100%;*/
+	background: rgba(0,0,0,.65);
+	width: 100%;
+	padding-bottom: 20px;
+}
+.image-overlay-span, .image-overlay-span p, .image-overlay-span h4{
+	color: white;
+}
+.blackspan span, .visible-mobile{
+	color: rgb(102,102,102);
 }
 /*@media only screen and (max-device-width : 768px) {
 
