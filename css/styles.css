@@ -101,6 +101,16 @@ hr.style-one {
 	/*background-image: src("images/water1.jpg");*/
 
 }
+.codelab-anchor{
+	color: white;
+	text-decoration: none;
+}
+
+.codelab-anchor:hover, .codelab-anchor:focus {
+	color: black;
+	text-decoration: none;
+
+}
 #myCarousel{
 	max-height: 900px;
 	overflow: hidden;
@@ -223,6 +233,12 @@ hr.style-one {
 }
 .blurb-block p{
 	font-size: 1.5em;
+}
 .text-center{
 	text-align: center;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
 }
