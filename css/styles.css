@@ -223,6 +223,11 @@ hr.style-one {
 }
 .blurb-block p{
 	font-size: 1.5em;
+}
 .text-center{
 	text-align: center;
+}
+.cs-padder{
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
