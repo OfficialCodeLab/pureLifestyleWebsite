@@ -235,6 +235,10 @@ hr.style-one {
 	padding: 40px;
 	visibility: hidden;
 }
+.icons-block{
+	visibility: hidden;
+
+}
 .home-icons{
 	margin-top: 40px;
 }

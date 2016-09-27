@@ -33,6 +33,17 @@ $(document).ready(function(){
 		initialScroll = true;
 	}
 
+	var initialScroll2 = false;
+	var objectString2 = $('.icons-block')[0];
+
+	
+	if (isScrolledIntoView(objectString2)  ){
+		$('.icons-block').css("visibility", "visible");
+		$('.icons-block').addClass("fadeInLeft");
+		console.log("Element in view!");
+		initialScroll2 = true;
+	}
+
 
 	// var imageElementString = $('.img-brand-block');
 	function isScrolledIntoView(el) {
@@ -55,6 +66,14 @@ $(document).ready(function(){
 			console.log("Element is in view!");
 			initialScroll = true;
 		}
+
+		if (initialScroll2 === false  && isScrolledIntoView(objectString2)  ){
+			$('.icons-block').css("visibility", "visible");
+			$('.icons-block').addClass("fadeInLeft");
+			console.log("Element is in view!");
+			initialScroll2 = true;
+		}
+
 
 
 
