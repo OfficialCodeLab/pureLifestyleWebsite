@@ -292,6 +292,13 @@ hr.style-one {
 .em-font p{
 	font-size: 1.5em;
 }
+.limited-height{
+	/*max-height: 300px;*/
+}
+.retail-banner{
+	width: 100%;
+	height: auto;
+}
 /*@media only screen and (max-device-width : 768px) {
 
 	.hidden-mobile{
