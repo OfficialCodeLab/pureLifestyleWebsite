@@ -47,14 +47,14 @@ $(document).ready(function(){
 
 	// var imageElementString = $('.img-brand-block');
 	function isScrolledIntoView(el) {
-    var elemTop = el.getBoundingClientRect().top;
-    var elemBottom = el.getBoundingClientRect().bottom;
+	    var elemTop = el.getBoundingClientRect().top;
+	    var elemBottom = el.getBoundingClientRect().bottom;
 
-    var isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight);
-		// $('.img-brand-block').addClass("fadeInDown");
-		// console.log("Element is in view!");
-    return isVisible;
-};
+	    var isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight);
+			// $('.img-brand-block').addClass("fadeInDown");
+			// console.log("Element is in view!");
+	    return isVisible;
+	};
 
 	$(window).scroll(function(){
 		//Check for elements scrolling into view
