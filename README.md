@@ -1,5 +1,7 @@
 # Pure Lifestyle Website
-This website can be found at https://officialcodelab.github.io/pureLifestyleWebsite/
+This website can be found at https://officialcodelab.github.io/pureLifestyleWebsite/index.html
+
+Please check periodically at https://officialcodelab.github.io/pureLifestyleWebsite/ as well, to see if filenames are no longer needed.
 
 ------
 
