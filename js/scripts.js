@@ -33,17 +33,28 @@ $(document).ready(function(){
 		initialScroll = true;
 	}
 
+	var initialScroll2 = false;
+	var objectString2 = $('.icons-block')[0];
+
+	
+	if (isScrolledIntoView(objectString2)  ){
+		$('.icons-block').css("visibility", "visible");
+		$('.icons-block').addClass("fadeInLeft");
+		console.log("Element in view!");
+		initialScroll2 = true;
+	}
+
 
 	// var imageElementString = $('.img-brand-block');
 	function isScrolledIntoView(el) {
-    var elemTop = el.getBoundingClientRect().top;
-    var elemBottom = el.getBoundingClientRect().bottom;
+	    var elemTop = el.getBoundingClientRect().top;
+	    var elemBottom = el.getBoundingClientRect().bottom;
 
-    var isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight);
-		// $('.img-brand-block').addClass("fadeInDown");
-		// console.log("Element is in view!");
-    return isVisible;
-};
+	    var isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight);
+			// $('.img-brand-block').addClass("fadeInDown");
+			// console.log("Element is in view!");
+	    return isVisible;
+	};
 
 	$(window).scroll(function(){
 		//Check for elements scrolling into view
@@ -55,6 +66,14 @@ $(document).ready(function(){
 			console.log("Element is in view!");
 			initialScroll = true;
 		}
+
+		if (initialScroll2 === false  && isScrolledIntoView(objectString2)  ){
+			$('.icons-block').css("visibility", "visible");
+			$('.icons-block').addClass("fadeInLeft");
+			console.log("Element is in view!");
+			initialScroll2 = true;
+		}
+
 
 
 

@@ -235,6 +235,10 @@ hr.style-one {
 	padding: 40px;
 	visibility: hidden;
 }
+.icons-block{
+	visibility: hidden;
+
+}
 .home-icons{
 	margin-top: 40px;
 }
@@ -276,6 +280,10 @@ hr.style-one {
 }
 .bigger-p{
 	font-size: 1.5em;
+
+}
+.blurb-block li{
+	font-size: 1.2em;
 
 }
 .text-center{
@@ -337,6 +345,13 @@ hr.style-one {
 }
 .blackspan span, .visible-mobile{
 	color: rgb(102,102,102);
+}
+.about-ul i.fa-li{
+    line-height: 1.4em;
+}
+
+.about-ul{
+	font-size:1.2em;
 }
 /*@media only screen and (max-device-width : 768px) {
 
