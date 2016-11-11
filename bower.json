@@ -1,5 +1,5 @@
 {
-  "name": "Staticifier",
+  "name": "staticifier",
   "authors": [
     "Carl Eiserman <carleiserman@gmail.com>"
   ],
@@ -21,9 +21,12 @@
     "tests"
   ],
   "dependencies": {
-    "font-awesome": "fontawesome#^4.6.3",
+    "font-awesome": "fontawesome#^4.7.0",
     "bootstrap": "^3.3.6",
     "animate.css": "^3.5.2",
-    "jquery.mb.ytplayer": "^3.0.8"
+    "jquery.mb.ytplayer": "^3.0.8",
+    "scrollreveal": "^3.3.1",
+    "lightgallery": "^1.3.2",
+    "lg-thumbnail": "^1.0.0"
   }
 }
